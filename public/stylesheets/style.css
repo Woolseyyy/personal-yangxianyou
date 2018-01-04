@@ -1,0 +1,112 @@
+body {
+  height:100%;
+  width:100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nav {
+  position: relative;
+  margin: 100px 100px 100px 100px;
+  height: 28px
+}
+
+.nav .title {
+  position: absolute;
+  left: 0;
+  height: 28px;
+
+  font-family: Microsoft YaHei UI;
+  line-height: normal;
+  font-size: 28px;
+
+  color: #000000;
+}
+
+.nav >ul{
+  position: absolute;
+  right: 0;
+  line-height: 28px;
+
+  font-family: Microsoft YaHei UI;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.nav >ul >li {
+  margin: 0 20px;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  transition: 0.2s;
+}
+
+.nav >ul >li:hover {
+  color: #959595;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+.index-view > table {
+  margin: 0 auto;
+}
+
+.index-view > table > tbody > tr > td {
+  text-align: center;
+}
+
+.index-view .hint-back {
+  background: no-repeat;
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  margin: 20px;
+}
+
+.hint-hind{
+  display: none;
+  transition: 0.5s;
+}
+
+.index-view .hint {
+  position:relative;
+  background-color: #ffffffad;
+  width: 100%;
+  height:100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.index-view .hint >div{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width:100%;
+}
+
+.index-view .hint >div >p{
+  font-family: Microsoft YaHei UI;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.index-view .hint >div >h1{
+  font-family: Microsoft YaHei UI;
+  line-height: normal;
+  font-size: 24px;
+
+  color: #000000;
+}
+
+.bannner{
+  width: 100%;
+}
