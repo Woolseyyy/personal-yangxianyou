@@ -10,4 +10,8 @@ router.get('/rescue', function(req, res, next) {
     res.render('rescue', { title: 'Express' });
 });
 
+router.get('/necho', function(req, res, next) {
+    res.render('necho', { title: 'Express' });
+});
+
 module.exports = router;

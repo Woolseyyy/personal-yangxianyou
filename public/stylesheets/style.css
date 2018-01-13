@@ -133,6 +133,12 @@ a {
 }
 
 p.center{
+    margin: 30px 0 100px;
+    text-align: center;
+}
+
+p.video{
+    margin: 30px 0 100px;
     text-align: center;
 }
 
