@@ -25,6 +25,11 @@ a {
 
     color: #000000;
 }
+.nav .title > img {
+    height: 28px;
+    margin: 0 10px;
+}
+
 
 .nav >ul{
     display: inline-block;
