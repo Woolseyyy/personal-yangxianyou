@@ -270,3 +270,38 @@ p.video{
     max-width: 100%;
 }
 
+.ending-end{
+    text-align: center;
+    font-size: 21px;
+    margin: 40px;
+}
+
+.ending-pointer{
+    text-align: right;
+    margin: 20px 40px;
+}
+
+.ending-pointer>div{
+    display: inline-block;
+    line-height: 30px;
+}
+
+.ending-pointer>div:hover{
+    cursor: pointer;
+}
+
+.next{
+    font-size: 18px;
+    color: #c9caca;
+}
+
+.project{
+    font-size: 21px;
+}
+
+.copyright{
+    padding: 60px 0;
+    text-align: center;
+    font-size: 21px;
+    font-family: Myriadpro;
+}
