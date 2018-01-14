@@ -14,4 +14,7 @@ router.get('/necho', function(req, res, next) {
     res.render('necho', { title: 'Express' });
 });
 
+router.get('/cleaner', function(req, res, next) {
+    res.render('cleaner', { title: 'Express' });
+});
 module.exports = router;
